@@ -22,10 +22,10 @@ export default function Page() {
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          Hi! I’m Lindiwe Thabsile Dlomo, an innovative  based in Johannesburg, South Africa. I’m passionate about harnessing technology to solve real-world challenges and drive meaningful change.
+          Hi! I’m Lindiwe Thabsile Dlomo, an innovative Software Developer based in Johannesburg, South Africa. I’m passionate about harnessing technology to solve real-world challenges and drive meaningful change.
         </p>
         <p>
-          Developer with hands-on experience in Python and Robotic Process Automation (RPA). I thrive on developing efficient solutions and enhancing workflows through automation, always aiming to make processes smarter and more streamline
+          Developer with hands-on experience in Python and Robotic Process Automation (RPA). I thrive on developing efficient solutions and enhancing workflows through automation, always aiming to make processes smarter and more streamlined.
         </p>
         <p>
           My curiosity and enthusiasm for learning fuel my journey in the tech world. I’m excited to connect with like-minded individuals and contribute to projects that make a difference.
