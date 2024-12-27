@@ -7,21 +7,21 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
+    title: "Resume Builder",
     year: 2023,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+    url: "https://lindiwedlomo.github.io/Resume_Builder/",
   },
   {
-    title: "Project Two",
+    title: "Drum Machine",
     year: 2022,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
-    url: "https://example.com/",
+    url: "https://fccdrum-machine.vercel.app/",
   },
   {
-    title: "Project Three",
+    title: "VPN App",
     year: 2021,
     description:
       "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
