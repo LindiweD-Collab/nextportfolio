@@ -26,7 +26,7 @@ export default function Certifications() {
           },
           {
             src: "/certifications/certification3.jpg",
-            alt: "Microsoft Certified Azure Developer",
+            alt: "Microsoft Certified C# Developer",
             href: "https://www.microsoft.com/en-us/learning/azure-developer.aspx",
           },
           {
@@ -36,7 +36,7 @@ export default function Certifications() {
           },
           {
             src: "/certifications/certification5.jpg",
-            alt: "Certified Agile Practitioner",
+            alt: "Certified Java Developer",
             href: "https://www.pmi.org/certifications/agile-practitioner",
           },
           {
