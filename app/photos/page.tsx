@@ -3,69 +3,97 @@ import type { Metadata } from "next";
 import { ImageGrid } from "app/components/image-grid";
 
 export const metadata: Metadata = {
-  title: "Photos",
-  description: "My Photos",
+  title: "Certifications",
+  description: "My Certifications",
 };
 
-export default function Photos() {
+export default function Certifications() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Photos</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">Certifications</h1>
       <ImageGrid
         columns={3}
         images={[
           {
-            src: "/photos/photo1.jpg",
-            alt: "Roman columns",
-            href: "https://unsplash.com/photos/people-walking-near-building-during-daytime-dFLBDQQeffU?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            src: "/certifications/certification1.jpg",
+            alt: "AWS Certified Developer",
+            href: "https://www.aws.com/certification/certified-developer/",
           },
           {
-            src: "/photos/photo2.jpg",
-            alt: "Big Ben",
-            href: "https://unsplash.com/photos/big-ben-london-MdJq0zFUwrw?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            src: "/certifications/certification2.jpg",
+            alt: "Google Cloud Certified Professional",
+            href: "https://cloud.google.com/certification/professional-cloud-developer",
           },
           {
-            src: "/photos/photo3.jpg",
-            alt: "Sacré-Cœur Basilica",
-            href: "https://unsplash.com/photos/a-view-of-the-inside-of-a-building-through-a-circular-window-Tp-3hrx88J4",
+            src: "/certifications/certification3.jpg",
+            alt: "Microsoft Certified Azure Developer",
+            href: "https://www.microsoft.com/en-us/learning/azure-developer.aspx",
           },
           {
-            src: "/photos/photo4.jpg",
-            alt: "Eiffel Tower",
-            href: "https://unsplash.com/photos/the-eiffel-tower-towering-over-the-city-of-paris-OgPuPvPsHLM?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            src: "/certifications/certification4.jpg",
+            alt: "Certified Scrum Master",
+            href: "https://www.scrum.org/certifications/csm",
           },
           {
-            src: "/photos/photo5.jpg",
-            alt: "Taj Mahal",
-            href: "https://unsplash.com/photos/taj-mahal-india-IPlPkWPJ2fo",
+            src: "/certifications/certification5.jpg",
+            alt: "Certified Agile Practitioner",
+            href: "https://www.pmi.org/certifications/agile-practitioner",
           },
           {
-            src: "/photos/photo6.jpg",
-            alt: "Colosseum",
-            href: "https://unsplash.com/photos/brown-concrete-building-under-blue-sky-during-daytime-3cyBR1rIJmA?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash",
+            src: "/certifications/certification6.jpg",
+            alt: "Certified Information Systems Security Professional",
+            href: "https://www.isc2.org/Certifications/CISSP",
           },
         ]}
       />
-
       <ImageGrid
         columns={2}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
-          { src: "/photos/photo2.jpg", alt: "Big Ben" },
-          { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
-          { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
+          {
+            src: "/certifications/certification1.jpg",
+            alt: "AWS Certified Developer",
+          },
+          {
+            src: "/certifications/certification2.jpg",
+            alt: "Google Cloud Certified Professional",
+          },
+          {
+            src: "/certifications/certification3.jpg",
+            alt: "Microsoft Certified Azure Developer",
+          },
+          {
+            src: "/certifications/certification4.jpg",
+            alt: "Certified Scrum Master",
+          },
         ]}
       />
-
       <ImageGrid
         columns={4}
         images={[
-          { src: "/photos/photo1.jpg", alt: "Roman columns" },
-          { src: "/photos/photo2.jpg", alt: "Big Ben" },
-          { src: "/photos/photo3.jpg", alt: "Sacré-Cœur Basilica" },
-          { src: "/photos/photo4.jpg", alt: "Eiffel Tower" },
-          { src: "/photos/photo5.jpg", alt: "Taj Mahal" },
-          { src: "/photos/photo6.jpg", alt: "Colosseum" },
+          {
+            src: "/certifications/certification1.jpg",
+            alt: "AWS Certified Developer",
+          },
+          {
+            src: "/certifications/certification2.jpg",
+            alt: "Google Cloud Certified Professional",
+          },
+          {
+            src: "/certifications/certification3.jpg",
+            alt: "Microsoft Certified Azure Developer",
+          },
+          {
+            src: "/certifications/certification4.jpg",
+            alt: "Certified Scrum Master",
+          },
+          {
+            src: "/certifications/certification5.jpg",
+            alt: "Certified Agile Practitioner",
+          },
+          {
+            src: "/certifications/certification6.jpg",
+            alt: "Certified Information Systems Security Professional",
+          },
         ]}
       />
     </section>
