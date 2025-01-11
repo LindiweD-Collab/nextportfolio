@@ -15,13 +15,13 @@ export default function Certifications() {
         columns={3}
         images={[
           {
-            src: "/certifications/certification1.jpg",
-            alt: "AWS Certified Developer",
+            src: "/certifications/certif.jpg",
+            alt: "AWS Certified Cloud Practitioner",
             href: "https://www.aws.com/certification/certified-developer/",
           },
           {
             src: "/certifications/certification2.jpg",
-            alt: "Google Cloud Certified Professional",
+            alt: "Google Data Analytics Certified Professional",
             href: "https://cloud.google.com/certification/professional-cloud-developer",
           },
           {
@@ -31,7 +31,7 @@ export default function Certifications() {
           },
           {
             src: "/certifications/certification4.jpg",
-            alt: "Certified Scrum Master",
+            alt: "Project Management Certification",
             href: "https://www.scrum.org/certifications/csm",
           },
           {
@@ -51,15 +51,15 @@ export default function Certifications() {
         images={[
           {
             src: "/certifications/certification1.jpg",
-            alt: "AWS Certified Developer",
+            alt: "AWS Certified Cloud Practitioner",
           },
           {
             src: "/certifications/certification2.jpg",
-            alt: "Google Cloud Certified Professional",
+            alt: "Google Data Analytics Certified Professional",
           },
           {
             src: "/certifications/certification3.jpg",
-            alt: "Microsoft Certified Azure Developer",
+            alt: "Project Management Certification",
           },
           {
             src: "/certifications/certification4.jpg",
