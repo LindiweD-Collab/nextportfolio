@@ -28,7 +28,11 @@ Try our resume builder today and take the first step towards creating a professi
     title: "Drum Machine",
     year: 2022,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
+      "Here's a short draft description for a drum machine:
+
+*Introducing the BeatMaster Drum Machine*
+
+Create professional-sounding drum tracks with ease using our intuitive and powerful drum machine. With a vast library of sounds, patterns, and effects, you can produce high-quality drum beats for any genre of music.",
     url: "https://fccdrum-machine.vercel.app/",
   },
   {
