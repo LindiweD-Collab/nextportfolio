@@ -3,14 +3,33 @@ import type { Metadata } from "next";
 import { ImageGrid } from "app/components/image-grid";
 
 export const metadata: Metadata = {
-  title: "Certifications",
-  description: "My Certifications",
+  title: "About Me",
+  description: "My Education and Certifications",
 };
 
-export default function Certifications() {
+export default function AboutMe() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">Certifications</h1>
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">Education</h1>
+      <p>
+        I am currently pursuing a 3-year degree program at the International University of Applied Sciences.
+        <br />
+        Prior to my degree program, I completed a boot camp with Umuzi, where I gained hands-on experience in software development.
+      </p>
+      <ImageGrid
+        columns={2}
+        images={[
+          {
+            src: "/education/iumas-logo.png",
+            alt: "International University of Applied Sciences",
+          },
+          {
+            src: "/education/umuzi-logo.png",
+            alt: "Umuzi",
+          },
+        ]}
+      />
+      <h1 className="mt-12 mb-8 text-2xl font-medium tracking-tight">Certifications</h1>
       <ImageGrid
         columns={3}
         images={[
