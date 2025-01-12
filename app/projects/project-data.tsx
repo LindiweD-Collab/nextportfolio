@@ -19,10 +19,15 @@ export const projects: Project[] = [
     url: "https://fccdrum-machine.vercel.app/",
   },
   {
+    title: "E-commerce website",
+    year: 2024,
+    description: "e-commerce website that allows users to browse and purchase products online. The website will feature a user-friendly interface, secure payment gateway, and efficient order management system.",
+    url: "https://e-commerce-three-mu-25.vercel.app/",
+  },
+  {
     title: "VPN App",
     year: 2024,
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veritatis dolorem rem praesentium dicta labore, at laudantium quisquam.",
+    description: "e-commerce website that allows users to browse and purchase products online. The website will feature a user-friendly interface, secure payment gateway, and efficient order management system.",
     url: "https://example.com/",
   },
 ];
