@@ -15,11 +15,7 @@ export default function Page() {
           priority
         />
       </a>
-
-      <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Junior Software Developer  
-      </h1>
-
+      <h1 className="mb-8 text-2xl font-medium tracking-tight">Junior Software Developer</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
           Hi! I’m Lindiwe Thabsile Dlomo, an innovative Software Developer based in Johannesburg, South Africa. I’m passionate about harnessing technology to solve real-world challenges and drive meaningful change.
@@ -30,6 +26,15 @@ export default function Page() {
         <p>
           My curiosity and enthusiasm for learning fuel my journey in the tech world. I’m excited to connect with like-minded individuals and contribute to projects that make a difference.
         </p>
+        <div className="mt-8 text-center">
+          <a
+            href="/resume.pdf"
+            download="Lindiwe-Thabsile-Dlomo-Resume.pdf"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
     </section>
   );
