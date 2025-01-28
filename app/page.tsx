@@ -28,7 +28,7 @@ export default function Page() {
         </p>
         <div className="mt-8 text-center">
           <a
-            href="/resume.pdf"
+            href="/CV_Lindiwe_Dlomo_ Full-Stack_Developer.pdf"
             download="Lindiwe-Thabsile-Dlomo-Resume.pdf"
             className="bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
