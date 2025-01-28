@@ -14,7 +14,7 @@ export default function AboutMe() {
       <p>
         I am currently pursuing a 3-year degree program at the International University of Applied Sciences.
       </p>
-      <ImageGrid columns={2} images={[{ src: "/education/iumas-logo.png", alt: "International University of Applied Sciences" }]} />
+      <ImageGrid columns={2} images={[{ src: "/certifications/degree.jpeg", alt: "International University of Applied Sciences" }]} />
       <p>
         Prior to my degree program, I completed a boot camp with Umuzi, where I gained hands-on experience in software development.
       </p>
