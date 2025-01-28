@@ -33,23 +33,23 @@ export default function AboutMe() {
         columns={3}
         images={[
           {
-            src: "/certification/Tataa.pdf",
+            src: "/certifications/Tataa.pdf",
             alt: "Tataa Certification",
           },
           {
-            src: "/certification/accenture1.pdf",
+            src: "/certifications/accenture1.pdf",
             alt: "Accenture Certification",
           },
           {
-            src: "/certification/intjava.jpg",
+            src: "/certifications/intjava.jpg",
             alt: "Java Certification",
           },
           {
-            src: "/certification/pwcc.pdf",
+            src: "/certifications/pwcc.pdf",
             alt: "PWC Certification",
           },
           {
-            src: "/certification/standardbank.pdf",
+            src: "/certifications/standardbank.pdf",
             alt: "Standard Bank Certification",
           },
         ]}
